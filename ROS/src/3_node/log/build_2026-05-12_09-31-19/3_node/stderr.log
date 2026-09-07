@@ -1,0 +1,5 @@
+  File "/root/ros_ws/task1_ws/3_node/install/3_node/lib/python3.10/site-packages/3_node/sensor_node.py", line 32
+    if __name__ == '__main__';
+                             ^
+SyntaxError: invalid syntax
+

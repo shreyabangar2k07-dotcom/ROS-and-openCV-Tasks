@@ -1,0 +1,30 @@
+[0.733s] Invoking command in '/root/ros_ws/task1_ws/3_node': PYTHONPATH=/root/ros_ws/task1_ws/3_node/build/3_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/task1_ws/3_node/install/3_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/3_node build --build-base /root/ros_ws/task1_ws/3_node/build/3_node/build install --record /root/ros_ws/task1_ws/3_node/build/3_node/install.log --single-version-externally-managed install_data
+[1.006s] running egg_info
+[1.007s] writing build/3_node/3_node.egg-info/PKG-INFO
+[1.007s] writing dependency_links to build/3_node/3_node.egg-info/dependency_links.txt
+[1.007s] writing entry points to build/3_node/3_node.egg-info/entry_points.txt
+[1.007s] writing requirements to build/3_node/3_node.egg-info/requires.txt
+[1.007s] writing top-level names to build/3_node/3_node.egg-info/top_level.txt
+[1.009s] reading manifest file 'build/3_node/3_node.egg-info/SOURCES.txt'
+[1.009s] adding license file 'LICENSE'
+[1.010s] writing manifest file 'build/3_node/3_node.egg-info/SOURCES.txt'
+[1.010s] running build
+[1.010s] running build_py
+[1.010s] copying 3_node/sensor_node.py -> /root/ros_ws/task1_ws/3_node/build/3_node/build/lib/3_node
+[1.010s] running install
+[1.011s] running install_lib
+[1.012s] copying /root/ros_ws/task1_ws/3_node/build/3_node/build/lib/3_node/sensor_node.py -> /root/ros_ws/task1_ws/3_node/install/3_node/lib/python3.10/site-packages/3_node
+[1.012s] byte-compiling /root/ros_ws/task1_ws/3_node/install/3_node/lib/python3.10/site-packages/3_node/sensor_node.py to sensor_node.cpython-310.pyc
+[1.013s] running install_data
+[1.013s]   File "/root/ros_ws/task1_ws/3_node/install/3_node/lib/python3.10/site-packages/3_node/sensor_node.py", line 12
+[1.013s]     self.timer = self.create_timre(timer_period, self,.timer_callback)
+[1.013s]                                                       ^
+[1.013s] SyntaxError: invalid syntax
+[1.013s] 
+[1.013s] running install_egg_info
+[1.015s] removing '/root/ros_ws/task1_ws/3_node/install/3_node/lib/python3.10/site-packages/3_node-0.0.0-py3.10.egg-info' (and everything under it)
+[1.015s] Copying build/3_node/3_node.egg-info to /root/ros_ws/task1_ws/3_node/install/3_node/lib/python3.10/site-packages/3_node-0.0.0-py3.10.egg-info
+[1.016s] running install_scripts
+[1.043s] Installing sensor script to /root/ros_ws/task1_ws/3_node/install/3_node/lib/3_node
+[1.043s] writing list of installed files to '/root/ros_ws/task1_ws/3_node/build/3_node/install.log'
+[1.066s] Invoked command in '/root/ros_ws/task1_ws/3_node' returned '0': PYTHONPATH=/root/ros_ws/task1_ws/3_node/build/3_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros_ws/task1_ws/3_node/install/3_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/3_node build --build-base /root/ros_ws/task1_ws/3_node/build/3_node/build install --record /root/ros_ws/task1_ws/3_node/build/3_node/install.log --single-version-externally-managed install_data

@@ -1,0 +1,41 @@
+running egg_info
+creating build/3_node/3_node.egg-info
+writing build/3_node/3_node.egg-info/PKG-INFO
+writing dependency_links to build/3_node/3_node.egg-info/dependency_links.txt
+writing entry points to build/3_node/3_node.egg-info/entry_points.txt
+writing requirements to build/3_node/3_node.egg-info/requires.txt
+writing top-level names to build/3_node/3_node.egg-info/top_level.txt
+writing manifest file 'build/3_node/3_node.egg-info/SOURCES.txt'
+reading manifest file 'build/3_node/3_node.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'build/3_node/3_node.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros_ws/task1_ws/3_node/build/3_node/build
+creating /root/ros_ws/task1_ws/3_node/build/3_node/build/lib
+creating /root/ros_ws/task1_ws/3_node/build/3_node/build/lib/3_node
+copying 3_node/sensor_node.py -> /root/ros_ws/task1_ws/3_node/build/3_node/build/lib/3_node
+copying 3_node/__init__.py -> /root/ros_ws/task1_ws/3_node/build/3_node/build/lib/3_node
+running install
+running install_lib
+creating /root/ros_ws/task1_ws/3_node/install/3_node/lib/python3.10/site-packages/3_node
+copying /root/ros_ws/task1_ws/3_node/build/3_node/build/lib/3_node/sensor_node.py -> /root/ros_ws/task1_ws/3_node/install/3_node/lib/python3.10/site-packages/3_node
+copying /root/ros_ws/task1_ws/3_node/build/3_node/build/lib/3_node/__init__.py -> /root/ros_ws/task1_ws/3_node/install/3_node/lib/python3.10/site-packages/3_node
+byte-compiling /root/ros_ws/task1_ws/3_node/install/3_node/lib/python3.10/site-packages/3_node/sensor_node.py to sensor_node.cpython-310.pyc
+byte-compiling /root/ros_ws/task1_ws/3_node/install/3_node/lib/python3.10/site-packages/3_node/__init__.py to __init__.cpython-310.pyc
+  File "/root/ros_ws/task1_ws/3_node/install/3_node/lib/python3.10/site-packages/3_node/sensor_node.py", line 32
+    if __name__ == '__main_
+                   ^
+SyntaxError: unterminated string literal (detected at line 32)
+
+running install_data
+creating /root/ros_ws/task1_ws/3_node/install/3_node/share/ament_index
+creating /root/ros_ws/task1_ws/3_node/install/3_node/share/ament_index/resource_index
+creating /root/ros_ws/task1_ws/3_node/install/3_node/share/ament_index/resource_index/packages
+copying resource/3_node -> /root/ros_ws/task1_ws/3_node/install/3_node/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros_ws/task1_ws/3_node/install/3_node/share/3_node
+running install_egg_info
+Copying build/3_node/3_node.egg-info to /root/ros_ws/task1_ws/3_node/install/3_node/lib/python3.10/site-packages/3_node-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sensor script to /root/ros_ws/task1_ws/3_node/install/3_node/lib/3_node
+writing list of installed files to '/root/ros_ws/task1_ws/3_node/build/3_node/install.log'
